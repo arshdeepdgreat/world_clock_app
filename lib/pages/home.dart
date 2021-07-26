@@ -20,7 +20,7 @@ class _HomeState extends State<Home> {
    String bg = data['isday']=="true"? 'day.png':'night.png';
    // print(bg);
    Color c = data['isday']=="true"? Colors.blueAccent: Colors.indigo;
-   Color tx = data['isday']=="true"? Colors.black:Colors.grey;
+   Color tx = data['isday']=="true"? Colors.black:Colors.amber;
 
     return Scaffold(
       backgroundColor: c,
