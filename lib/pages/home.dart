@@ -17,10 +17,10 @@ class _HomeState extends State<Home> {
    data = data.isEmpty? jsonDecode(tex): data;
    // print(data);
 
-   String bg = data['isDay']=="true"? 'day.png':'night.png';
+   String bg = data['isday']=="true"? 'day.png':'night.png';
    // print(bg);
-   Color c = data['isDay']=="true"? Colors.blueAccent: Colors.indigo;
-   Color tx = data['isDay']=="true"? Colors.black:Colors.grey;
+   Color c = data['isday']=="true"? Colors.blueAccent: Colors.indigo;
+   Color tx = data['isday']=="true"? Colors.black:Colors.grey;
 
     return Scaffold(
       backgroundColor: c,

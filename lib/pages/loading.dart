@@ -17,7 +17,7 @@ class _LoadingState extends State<Loading> {
           c+'location'+c :c+instance.location+c,
           c+'time'+c:c+instance.time+c,
           c+'flag'+c:c+instance.flag+c,
-          c+'isDay'+c:c+instance.isday.toString()+c
+          c+'isday'+c:c+instance.isday.toString()+c
     });
 
   }

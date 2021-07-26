@@ -31,7 +31,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
       c+'location'+c :c+instance.location+c,
       c+'time'+c :c+instance.time+c,
       c+'flag'+c :c+instance.flag+c,
-      c+'isDay'+c :c+instance.isday.toString()+c
+      c+'isday'+c :c+instance.isday.toString()+c
     });
   }
 
